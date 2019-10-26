@@ -1,5 +1,5 @@
 ARG VERSION=latest
-FROM archlinux/base:$VERSION
+FROM archlinux:$VERSION
 
 LABEL description="Archlinux base image" \
 	version="1.0"
